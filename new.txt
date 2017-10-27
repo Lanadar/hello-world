@@ -72,11 +72,6 @@
 							<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
 						@endif	
 							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="font-size: 20px; padding-top: 10px; padding-bottom: 10px;">
-									<p><strong>{{$item->title}}</strong></p>
-								</div>
-							</div>
-							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 programmImage" style="padding: 12px 15px; font-size: 18px;">
 									<p><strong>Ведущий</strong></p>
 								</div>
@@ -130,6 +125,7 @@
 								</div>
 							</div>
 							@endif
+							123123123
 							@if($item->image5!='' && $item->name5!='')
 							<div class="row" style="margin-top: 10px;">
 								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 programmImage" style="padding-top: 10px; padding-bottom: 10px;">
@@ -274,8 +270,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- Modal Archive end-->
-				<!-- Modal Archive start-->
 				<div class="modal fade" id="programmModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 					<div class="modal-dialog modal-concept" role="document">
 						<div class="modal-content">
